@@ -1,4 +1,5 @@
-# go-restapi
+# go-restapi 
+This project is the backend RESTAPI endpoint of my reactjs project https://github.com/anddegs/reactjs
 
 How to start
 1. Start Postgres database via docker-compose.yml
@@ -27,5 +28,5 @@ Packaging to as docker image
 1. execute ./build-docker.sh
 
 To run the docker image
-2. docker run -p 8080:8080 my-go-rest-api ./main -dsn="host=192.168.1.51 port=5432 user=postgres password=postgres dbname=movies sslmode=disable timezone=UTC connect_timeout=5"
+> docker run -p 8080:8080 my-go-rest-api ./main -dsn="host=192.168.1.51 port=5432 user=postgres password=postgres dbname=movies sslmode=disable timezone=UTC connect_timeout=5"
  
