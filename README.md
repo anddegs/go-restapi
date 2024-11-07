@@ -23,3 +23,9 @@ Design pattern implemented
 2. Respository design pattern
 3. Authentication
 
+Packaging to as docker image
+1. execute ./build-docker.sh
+
+To run the docker image
+2. docker run -p 8080:8080 my-go-rest-api ./main -dsn="host=192.168.1.51 port=5432 user=postgres password=postgres dbname=movies sslmode=disable timezone=UTC connect_timeout=5"
+ 
